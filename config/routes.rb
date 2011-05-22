@@ -1,4 +1,16 @@
 RecordsApp::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/artist"
+
+  get "pages/tour"
+
+  get "pages/street_team"
+
+  get "pages/forum"
+
+  get "pages/test"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
