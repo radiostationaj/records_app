@@ -1,15 +1,13 @@
 RecordsApp::Application.routes.draw do
   get "pages/home"
 
-  get "pages/artist"
+  match '/artist',        :to => 'pages#artist'
+  match '/tour',          :to => 'pages#tour'
+  match '/street_team',   :to => 'pages#street_team'
+  match '/forum',         :to => 'pages#forum'
+  match '/contact',       :to => 'pages#contact'
 
-  get "pages/tour"
-
-  get "pages/street_team"
-
-  get "pages/forum"
-
-  get "pages/contact"
+  root :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
