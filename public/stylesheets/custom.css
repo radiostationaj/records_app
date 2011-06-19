@@ -1,13 +1,161 @@
+/* Application style */
 body
 {
 background-image:url('../images/bg.jpg');
 background-repeat:no-repeat;
-background-attachment:fixed;
-background-position: 0px 8px 0px 0px;
+
+background-position: 0px 6px;
+background-color:black;
+text-align:left;
 }
 
 div#main
 {
 background-image:url('../images/bg.jpg');
 padding:0;
+}
+
+#superposition
+{
+font-size:30px;
+font-weight:bold;
+padding-left:15px;
+}
+
+#pronounce
+{
+font-size:20px;
+color:#888888;
+font-style:italic;
+}
+
+#definition
+{
+font-size:16px;
+width:500px;
+font-family:serif;
+line-height:20px;
+font-weight:normal;
+padding-left:25px;
+}
+
+
+
+/* Nav Style */
+
+nav
+{
+background-color: black;
+padding: 2px 0px 2px 20px;
+text-align:left;
+font-weight: bolder;
+font-size: 17px;
+margin-top:10px;
+margin-bottom:10px;
+border-top-color:white;
+border-top-style:solid;
+border-top-width:4px;
+border-bottom-color:white;
+border-bottom-style:solid;
+border-bottom-width:2px;
+width:465px;
+}
+
+.top_nav
+{
+padding-right:6px;
+padding-left:6px;
+}
+
+a.top_nav
+{
+color: white;
+text-decoration:none;
+padding:10;
+}
+
+a.top_nav:hover
+{
+color: white;
+text-decoration:none;
+background-color:#666666;
+}
+
+
+a.top_nav:visited
+{
+color: white;
+}
+
+
+/* Home Page Style */
+
+#holder
+{
+float:left;
+width:620px;
+height:320px;
+margin:96px 0px 0 124px;
+border:1px;
+border-style:solid;
+border-color:black;
+background-color:white;
+overflow:auto;
+
+}
+
+#slider
+{
+width:2480px;
+height:300px;
+margin:0 auto;
+}
+
+div.slide
+{
+width:600px;
+height:280px;
+padding:10px;
+float:left;
+margin: 0 auto;
+}
+
+#main_home
+{
+height:300px;
+}
+
+#home_nav
+{
+background-color:#999999;
+border:2px;
+border-style:solid;
+border-color:black;
+margin:96px 0px 0 5px;
+padding:2px;
+text-align:center;
+float:left;
+font-weight:bold;
+line-height:20px;
+font-size:12px;
+width:90px;
+}
+
+a.home_link
+{
+color:#666666;
+text-decoration:none;
+padding:2px;
+}
+
+a.home_link:hover
+{
+color:white;
+background-color:#444444;
+text-decoration:none;
+} 
+
+a.home_link:visited
+{
+color:#666666;
 }
