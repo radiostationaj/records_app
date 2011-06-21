@@ -12,15 +12,8 @@ $(function() {
 
 
   $('a#news').css( { 'background-color' : '#111111' ,  'text-decoration' : 'none' });
+  $('#home_nav').css( 'visibility' , 'visible' );
 
-
-  function rollOverLink(){ 
-  $('div#home_nav').mouseenter(function(e){
-      if($(e.target) == $('news')){
-        alert();
-      };
-    });
-  };
 
 
 
@@ -33,7 +26,6 @@ $(function() {
       $('a#current').css( 'background-color' , '#999999' );
       $('a#soon').css( 'background-color' , '#999999' );
       $('a#us').css( 'background-color', '#999999' );
-      rollOverLink();
     }else
     if($(this).attr('id')=='current'){
       currentPosition = 1;

@@ -3,7 +3,6 @@ body
 {
 background-image:url('../images/bg.jpg');
 background-repeat:no-repeat;
-
 background-position: 0px 6px;
 background-color:black;
 text-align:left;
@@ -59,6 +58,7 @@ border-bottom-color:white;
 border-bottom-style:solid;
 border-bottom-width:2px;
 width:465px;
+hieght:320px;
 }
 
 .top_nav
@@ -96,7 +96,7 @@ float:left;
 width:620px;
 height:320px;
 margin:96px 0px 0 124px;
-border:1px;
+border:3px;
 border-style:solid;
 border-color:black;
 background-color:white;
@@ -114,7 +114,7 @@ margin:0 auto;
 div.slide
 {
 width:600px;
-height:280px;
+height:320px;
 padding:10px;
 float:left;
 margin: 0 auto;
@@ -127,11 +127,12 @@ height:300px;
 
 #home_nav
 {
+color:white;
 background-color:#999999;
-border:2px;
-border-style:solid;
+border:5px;
+border-style:double;
 border-color:black;
-margin:96px 0px 0 5px;
+margin:96px 0px 0 0px;
 padding:2px;
 text-align:center;
 float:left;
@@ -139,6 +140,35 @@ font-weight:bold;
 line-height:20px;
 font-size:12px;
 width:90px;
+visibility:hidden;
+}
+
+#slide_0
+{
+background-image:url('../images/slide1.jpg');
+background-repeat:no-repeat;
+background-position:top right;
+}
+
+#slide_1
+{
+background-image:url('../images/slide2.jpg');
+background-repeat:no-repeat;
+background-position:top right;
+}
+
+#slide_2
+{
+background-image:url('../images/slide3.jpg');
+background-repeat:no-repeat;
+background-position:top right;
+}
+
+#slide_3
+{
+background-image:url('../images/slide4.jpg');
+background-repeat:no-repeat;
+background-position:top right;
 }
 
 a.home_link
@@ -151,11 +181,10 @@ padding:2px;
 a.home_link:hover
 {
 color:white;
-background-color:#444444;
 text-decoration:none;
 } 
 
 a.home_link:visited
 {
-color:#666666;
+color:#white;
 }
