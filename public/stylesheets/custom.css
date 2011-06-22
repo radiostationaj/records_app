@@ -44,6 +44,8 @@ padding-left:25px;
 
 nav
 {
+width:465px;
+hieght:320px;
 background-color: black;
 padding: 2px 0px 2px 20px;
 text-align:left;
@@ -57,8 +59,7 @@ border-top-width:4px;
 border-bottom-color:white;
 border-bottom-style:solid;
 border-bottom-width:2px;
-width:465px;
-hieght:320px;
+color:white;
 }
 
 .top_nav
@@ -187,4 +188,21 @@ text-decoration:none;
 a.home_link:visited
 {
 color:#white;
+}
+
+.slide_text
+{
+hieght:280px;
+width:370px;
+font-family:sans;
+font-size:14px;
+}
+
+.slide_text_3
+{
+line-height:18px;
+hieght:280px;
+width:342px;
+font-family:sans;
+font-size:14px;
 }
