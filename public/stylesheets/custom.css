@@ -129,7 +129,7 @@ height:300px;
 #home_nav
 {
 color:white;
-background-color:#999999;
+background-color:#888888;
 border:5px;
 border-style:double;
 border-color:black;
@@ -174,20 +174,20 @@ background-position:top right;
 
 a.home_link
 {
-color:#666666;
+color:white;
 text-decoration:none;
 padding:2px;
 }
 
 a.home_link:hover
 {
-color:white;
+color:#333333;
 text-decoration:none;
 } 
 
 a.home_link:visited
 {
-color:#white;
+color:white;
 }
 
 .slide_text

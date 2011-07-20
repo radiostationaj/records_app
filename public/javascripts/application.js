@@ -23,30 +23,31 @@ $(function() {
     if($(this).attr('id')=='news'){
       currentPosition = 0;
       $('a#news').css( 'background-color' , '#111111' );
-      $('a#current').css( 'background-color' , '#999999' );
-      $('a#soon').css( 'background-color' , '#999999' );
-      $('a#us').css( 'background-color', '#999999' );
+      $('a#current').css( 'background-color' , '#888888' );
+      $('a#soon').css( 'background-color' , '#888888' );
+      $('a#us').css( 'background-color', '#888888' );
     }else
     if($(this).attr('id')=='current'){
       currentPosition = 1;
-      $('a#news').css( 'background-color' , '#999999' );
+      $('a#news').css( 'background-color' , '#888888' );
       $('a#current').css( 'background-color' , '#111111' );
-      $('a#soon').css( 'background-color' , '#999999' );
-      $('a#us').css( 'background-color', '#999999' );
+      $('a#soon').css( 'background-color' , '#888888' );
+      $('a#us').css( 'background-color', '#888888' );
     }else
     if($(this).attr('id')=='soon'){
       currentPosition = 2;
-      $('a#news').css( 'background-color' , '#999999' );
-      $('a#current').css( 'background-color' , '#999999' );
+      $('a#news').css( 'background-color' , '#888888' );
+      $('a#current').css( 'background-color' , '#888888' );
       $('a#soon').css( 'background-color' , '#111111' );
-      $('a#us').css( 'background-color', '#999999' );
+      $('a#us').css( 'background-color', '#888888' );
     }else
     if($(this).attr('id')=='us'){
       currentPosition = 3;
-      $('a#news').css( 'background-color' , '#999999' );
-      $('a#current').css( 'background-color' , '#999999' );
-      $('a#soon').css( 'background-color' , '#999999' );
+      $('a#news').css( 'background-color' , '#888888' );
+      $('a#current').css( 'background-color' , '#888888' );
+      $('a#soon').css( 'background-color' , '#888888' );
       $('a#us').css( 'background-color', '#111111' );
+      $('a#slide_3:hover').css( 'color', 'red');
     };
 
      //alert(currentPosition)
